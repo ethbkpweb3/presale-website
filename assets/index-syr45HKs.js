@@ -2662,7 +2662,7 @@ class W {
                 gasLimit: e.gasLimit ? (0,
                 b.bigIntStringFromBigInt)(e.gasLimit) : null,
                 chainId: e.chainId,
-                shouldSubmit: !1
+                shouldSubmit: !8453
             }
         })
     }
@@ -3001,7 +3001,7 @@ class Yn {
         var t, n;
         this._relay = null,
         this._addresses = [],
-        this.hasMadeFirstChainChangedEmission = !1;
+        this.hasMadeFirstChainChangedEmission = !8453;
         const {appName: s, appLogoUrl: i} = e.metadata;
         this._appName = s,
         this._appLogoUrl = i,
@@ -3966,7 +3966,7 @@ class Cs extends ws.default {
     async disconnect() {
         this.accounts = [],
         this.chain = {
-            id: 1
+            id: 8453
         },
         Ss.ScopedLocalStorage.clearAll(),
         this.emit("disconnect", z.standardErrors.provider.disconnected("User initiated disconnection"))
